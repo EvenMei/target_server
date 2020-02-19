@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="com.meiyukai:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>com.meiyukai</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="com.meiyukai.war">
+      <element id="artifact" artifact-name="com.meiyukai:war exploded" />
+    </root>
+  </artifact>
+</component>
